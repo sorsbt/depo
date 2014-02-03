@@ -3,6 +3,7 @@ package com.sorsbt.testproject;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -20,6 +21,7 @@ public class MainActivity extends Activity {
 	
 	private void DoSomething(){
 		//TODO: Our code comes here...
+		Toast.makeText(getApplicationContext(), "hrehe", 1000).show();
 	}
 	
 	@Override
