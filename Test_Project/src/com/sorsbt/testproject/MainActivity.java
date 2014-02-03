@@ -12,6 +12,16 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 
+	/*
+	 * 
+	 * Test Void for git
+	 * 
+	 **/
+	
+	private void DoSomething(){
+		//TODO: Our code comes here...
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
